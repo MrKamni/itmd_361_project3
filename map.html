@@ -1,10 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Map</title>
+	<meta charset="UTF-8">
+	<title>Map</title>
+	<link href="http://fonts.googleapis.com/css?family=Devonshire" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/mapstyle.css">
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap"></script>
+	<script asyncsrc src="js/map.js"></script>
 </head>
-<body id="index">
-  <p>Map</p>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Hobbies</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="series.html">Series</a></li>
+        <li><a href="map.html">Map</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="wrapper">
+    <div id="canvas"></div>
+  </div>
+ 
+  
+  <footer>
+    <p>Created by Achraf Kamni</p>
+    <address>
+      <p><a href="mailto:akamni@hawk.iit.edu">akamni@hawk.iit.edu</a></p>
+    </address>
+  </footer>
 </body>
 </html>
