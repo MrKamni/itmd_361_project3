@@ -156,7 +156,7 @@ img {
 #series section {
   position: relative;
   width: calc(50% - 20px);
-  height: 750px;
+  height: 700px;
   float: left;
   box-sizing: border-box;
 }
@@ -169,7 +169,7 @@ img {
 
   #series section {
     width: calc(50% - 40px);
-    height: 800px
+    height: 650px;
     padding: 20px;
   }
 
@@ -194,7 +194,7 @@ img {
   
   #series section {
     width: calc(50% - 40px);
-    height: 1000px
+    height: 750px;
     padding: 20px;
   }
 
