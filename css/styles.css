@@ -160,6 +160,51 @@ img {
   float: left;
   box-sizing: border-box;
 }
+/* Media Query for Screens Larger Than 800px */
+@media only screen and (min-width: 800px) {
+  /* Increase padding and reduce font size for main and section */
+  #series main {
+    padding: 40px;
+  }
+
+  #series section {
+    width: calc(50% - 40px);
+    padding: 20px;
+  }
+
+  /* Change background color to dark purple */
+  #series {
+    background-color: #23395d;
+  }
+
+  /* Adjust font size and family for smaller screens */
+  body {
+    font-size: 16px;
+    font-family: 'Arial', 'Helvetica', sans-serif;
+  }
+}
+
+/* Media Query for Screens Larger Than 1000px */
+@media only screen and (min-width: 1000px) {
+  /* Further adjustments for screens larger than 1000px */
+  body {
+    font-size: 18px;
+  }
+
+  header nav ul {
+    display: block;
+    text-align: right;
+  }
+
+  header nav ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  header nav ul li a {
+    display: inline-block;
+  }
+}
 
 #series h1 {
   text-align: center;
