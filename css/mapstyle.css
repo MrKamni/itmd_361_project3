@@ -72,3 +72,8 @@ footer a {
 footer address {
   margin-top: 10px;
 }
+
+/* Style for Google Maps Info Window */
+.gm-style-iw {
+    color: #000; /* Set text color to black */
+}

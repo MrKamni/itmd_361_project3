@@ -6,6 +6,8 @@
   <link href="http://fonts.googleapis.com/css?family=Devonshire" rel="stylesheet" type="text/css">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <script src="js/slider.js"></script>
+
 </head>
 <body id="series">
   <header>
@@ -18,9 +20,23 @@
       </ul>
     </nav>
   </header>
-
   <main>
     <h1>My Top 5 favorite TV shows</h1>
+    
+    <section id="slider">
+  <h2>Upcoming</h2>
+  <div class="slider-container">
+    <img class="slider-image" src="images/breaking-bad.png" alt="Breaking Bad poster" style="display: block;">
+    <img class="slider-image" src="images/the-walking-dead.png" alt="The Walking Dead poster">
+    <img class="slider-image" src="images/jack-ryan.png" alt="Tom Clancy's Jack Ryan poster">
+    <img class="slider-image" src="images/the-boys.png" alt="The Boys poster">
+    <img class="slider-image" src="images/house.png" alt="House poster">
+  </div>
+  <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+  <button class="next" onclick="changeSlide(1)">&#10095;</button>
+</section>
+
+
     <section>
       <h2>Breaking Bad</h2>
       <img src="images/breaking-bad.png" alt="Breaking Bad poster">
