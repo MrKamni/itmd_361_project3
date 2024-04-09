@@ -204,8 +204,12 @@ img {
   header nav ul li a {
     display: inline-block;
   }
-}
 
+  /* Changes for screens larger than 1000px */
+  #series {
+    background-color: black;
+  }
+}
 #series h1 {
   text-align: center;
 }
