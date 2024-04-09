@@ -169,6 +169,7 @@ img {
 
   #series section {
     width: calc(50% - 40px);
+    height: 800px
     padding: 20px;
   }
 
@@ -190,22 +191,13 @@ img {
   body {
     font-size: 18px;
   }
-
-  header nav ul {
-    display: block;
-    text-align: right;
+  
+  #series section {
+    width: calc(50% - 40px);
+    height: 1000px
+    padding: 20px;
   }
 
-  header nav ul li {
-    display: block;
-    margin-bottom: 10px;
-  }
-
-  header nav ul li a {
-    display: inline-block;
-  }
-
-  /* Changes for screens larger than 1000px */
   #series {
     background-color: black;
   }
